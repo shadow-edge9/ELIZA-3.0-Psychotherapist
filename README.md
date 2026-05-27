@@ -29,5 +29,7 @@ pip install pyttsx3
 ```
 ### Installation
 Clone this repository: git clone [https://github.com/shadow-edge9/ELIZA-3.0-Psychotherapist/tree/main]
+
 Navigate to the directory: cd ELIZA-3.0-Psychotherapist
+
 Run the script: python eliza.py
