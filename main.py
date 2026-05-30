@@ -30,17 +30,17 @@ ELIZA_RULES = {
         ]
     },
 
-    r"i am (.*)": { "responses" : ["Why do you say {0}?",
-                                   "Do you really believe you are {0}?"]
-
-    },
-
     r"i am feeling (.*)": {
         "responses": [
             "Why are you feeling {0}?",
             "How long have you been feeling {0}?",
             "Do you want to continue feeling {0}?"
         ]
+    },
+
+    r"i am (.*)": { "responses" : ["Why do you say {0}?",
+                                   "Do you really believe you are {0}?"]
+
     },
 
     # 2. Question Defenses (Triggered if the user asks ELIZA a question using "why", "what", or "?")
@@ -86,7 +86,7 @@ ELIZA_RULES = {
         ]
     },
 
-    # 4. Short / Uncooperative Answers (Handling tight-lipped users)
+    # 4. Short / Uncooperative Answers (Handling non-cooperative users)
     r"^alright$|^ok$|^yes$|^no$": {
         "responses": [
             "Can you be more explicit?",
