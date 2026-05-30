@@ -3,10 +3,10 @@ import random
 import pyttsx3
 
 def speak(text):
-    engine = pyttsx3.init(driverName='nsss')
+    engine = pyttsx3.init() #driverName='nsss' ---> add this for MacOS users
     engine.setProperty('rate', 150)
 
-    voices = engine.getProperty('voices')
+    voices = engine.getProperty('voices')  #For Windows users this may not work. The name here is based on the voice list for MacOS
     for voice in voices:
         if "Tessa" in voice.name:
             engine.setProperty('voice', voice.id)
