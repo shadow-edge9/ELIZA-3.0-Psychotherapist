@@ -30,7 +30,7 @@ pip install pyttsx3
 ### Installation
 Clone this repository: 
 ``` bash
-git clone [https://github.com/shadow-edge9/ELIZA-3.0-Psychotherapist/tree/main]
+git clone [https://github.com/shadow-edge9/ELIZA-3.0-Psychotherapist.git](https://github.com/shadow-edge9/ELIZA-3.0-Psychotherapist.git)
 ```
 
 Navigate to the directory: 
