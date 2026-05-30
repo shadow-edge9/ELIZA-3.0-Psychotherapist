@@ -40,7 +40,7 @@ cd ELIZA-3.0-Psychotherapist
 
 Run the script: 
 ``` bash
-python eliza.py
+python main.py
 ```
 
 **NOTE: The name 'Tessa' in the python main.py script is one of the voices available on MacOS. It may not work on any other OS is the voice name doesn't exist.**
